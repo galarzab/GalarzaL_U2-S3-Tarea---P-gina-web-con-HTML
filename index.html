@@ -4,62 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechZone</title>
+    <link rel="preload" href="css/normalize.css" as="style" />
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preload" href="css/styles.css" as="style" />
+    <link href="css/styles.css" rel="stylesheet" />
 </head>
 <body>
     <header>
-        <h1>TECH<span>ZONE<span></h1>
-        <img src="img/iconoR_SF.png" width="30%">
+        <h1 class="titulo">TECH<span>ZONE<span></h1>
+        <!--img src="img/iconoR_SF.png" width="12%"-->
     </header>
 
-    <div>
-        <nav>
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
             <a href="index.html">INICIO</a>
             <a href="novedades.html">NOVEDADES</a>
             <a href="contactanos.html">CONTACTANOS</a>
         </nav>
     </div>
 
-    <main>
+    <section class="fondo-index">
+        <div class="cont-fondo-index">
+            <p>¡BIENVENIDO!</p>
+            <p>En este sitio web encontrarás información actualizada y relevante sobre los dispositivos tecnológicos
+                más populares y destacados del momento. El contenido está organizado en cuatro categorías 
+                principales: celulares, gadgets, computadoras y electrodomésticos, para que puedas explorar 
+                fácilmente las últimas tendencias en tecnología según tu área de interés.
+            </p>
+            <br>
+            <p>¿Quieres saber las últimas novedades?</p>
+            <a class="boton" href="novedades.html">Novedades</a>
+
+        </div>
+    </section>
+
+    <main class="sombra">
         <h2>Categorías</h2>
-        <section>
-            <h3>Celulares</h3>
-            <div>
-                <img src="iconos/mobile.svg">
-            </div>
-            <p>
+        <div class="categorias">
+            <section class="categoria">
+                <h3>Celulares</h3>
+                <div class="iconos">
+                    <img src="iconos/mobile.svg">
+                </div>
+                <p>
                 Lorem Ipsum no es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. 
-            </p>
-        </section>
+                </p>
+            </section>
 
-        <section>
-            <h3>Gadgets</h3>
-            <div>
-                <img src="iconos/reloj.svg">
-            </div>
-            <p>
-                Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. 
-            </p>
-        </section>
+            <section class="categoria">
+                <h3>Gadgets</h3>
+                <div class="iconos">
+                    <img src="iconos/reloj.svg">
+                </div>
+                <p>
+                    Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. 
+                </p>
+            </section>
 
-        <section>
-            <h3>Computadoras</h3>
-            <div>
-                <img src="iconos/pc.svg">
-            </div>
-            <p>
-                Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. 
-            </p>
-        </section>
+            <section class="categoria">
+                <h3>Computadoras</h3>
+                <div class="iconos">
+                    <img src="iconos/pc.svg">
+                </div>
+                <p>
+                    Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. 
+                </p>
+            </section>
 
-        <section>
-            <h3>Electrodomésticos</h3>
-            <div>
-                <img src="iconos/electrod.svg">
-            </div>
-            <p>
-                Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. 
-            </p>
-        </section> 
+            <section class="categoria">
+                <h3>Electrodomésticos</h3>
+                <div class="iconos">
+                    <img src="iconos/electrod.svg">
+                </div>
+                <p>
+                    Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. 
+                </p>
+            </section> 
+        </div>
+        
     </main>
 
     <footer>
